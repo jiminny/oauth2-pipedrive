@@ -1,9 +1,9 @@
 <?php
 
-namespace Daniti\OAuth2\Client\Provider\Exception;
+namespace Daniti\OAuth2\Client\Provider\Exceptions;
 
-use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use Psr\Http\Message\ResponseInterface;
+use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 
 class PipedriveIdentityProviderException extends IdentityProviderException
 {
