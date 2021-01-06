@@ -3,7 +3,7 @@
 namespace Daniti\OAuth2\Client\Provider\Exceptions;
 
 use Psr\Http\Message\ResponseInterface;
-use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
+use League\OAuth2\Client\Provider\Exceptions\IdentityProviderException;
 
 class PipedriveIdentityProviderException extends IdentityProviderException
 {
