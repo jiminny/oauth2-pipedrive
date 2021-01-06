@@ -3,10 +3,10 @@
 namespace Daniti\OAuth2\Client\Provider;
 
 use Daniti\OAuth2\Client\Provider\PipedriveResourceOwner;
-use Daniti\OAuth2\Client\Provider\Exception\PipedriveIdentityProviderException;
+use Daniti\OAuth2\Client\Provider\Exceptions\PipedriveIdentityProviderException;
 
 use League\OAuth2\Client\Provider\AbstractProvider;
-use League\OAuth2\Client\Provider\Exceptions\IdentityProviderException;
+use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use League\OAuth2\Client\Token\AccessToken;
 use League\OAuth2\Client\Tool\BearerAuthorizationTrait;
 use Psr\Http\Message\ResponseInterface;
